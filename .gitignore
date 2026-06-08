@@ -1,0 +1,26 @@
+# Airflow
+logs/
+plugins/
+
+# Данные
+data/raw/сырые
+data/processed/обработанные при необходимости
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Переменные окружения
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
